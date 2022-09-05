@@ -1,0 +1,29 @@
+1 reduced string
+sederhanakan sebuah string dengan melakukan beberapa operasi logika. setiap operasi logika dapat menyederhanakan string tersebut dengan memilih sepasang huruf berdampingan yang sama untuk kemudian dihapus. buat string input menjadi sesederhana mungkin dan output kan string hasilnya, jika string hasil tersebut kosong, maka outputkan Empty String
+
+aab => b
+abba => empty string
+aaabccddd => abd
+
+2 two character
+diberikan sebuah string, hapus huruf di string tersebut hingga string tersebut hanya berisikan 2 karakter yang saling berselingan. Ketika memilih suatu huruf untuk dihapus maka semua huruf tersebut didalam string harus dihapus juga. tentukan string terpanjang berdasarkan ketentuan diatas dari input yang diberikan
+
+abaacdabd => bdbd (4)
+beeabeefab => babab (5)
+
+3. weighted uniform string
+berat string merupakan total berat dari sebuah string yang berisikan huruf kecil dimana setiap huruf memiliki berat bernilai 1 - 26 dari a - z. sebuah string uniform merupakan string yang hanya berisikan satu karakter/huruf yang diulang 0 atau lebih kali. Buatlah sebuah fungsi dengan parameter berupa input(string) dan search (array of number) yang berfungsi untuk mencari semua substring dari input yang merupakan string uniform untuk kemudian dihitung masing masing beratnya. Fungsi ini memiliki keluaran berupa array yang berisikan apakah nilai search ditemukan dalam seluruh berat substring dari string input.
+
+abbcccdddd
+[1,7,5,4,15]
+[yes, no, no, yes, no]
+
+4. space station (flatland)
+Terdapat sebuah negara yang berisikan beberapa kota yang dimana beberapa dari kota tersebut memiliki stasiun. kota dinamakan dengan angka secara beurutan dan setiap kota memiliki jalan yang menghubungkannya ke kota selanjutnya sepanjang 1 km. kota kota ini tersusun secara linear sehingga kota pertama tidak terhubung dengan kota terakhir. Tentukan jarak maksimum semua kota ke stasiun terdekat. input banyaknya kota dan banyaknya stasiun beserta indeksnya dalam array
+
+5. climbing the leaderboard
+Suatu game menggunakan sistem Dense Ranking yang bekerja sebagai berikut:
+ => pemain dengan nilai tertinggi mendapatkan ranking 1
+ => pemain dengan nilai yang sama mendapatkan ranking yang sama dan pemain dibawahnya dengan skor beda akan mendapatkan ranking selanjutnya
+tentukan ranking suatu nilai dalam leaderboard yang ada
+input: leaderboard => selalu desc, score => selalu asc
